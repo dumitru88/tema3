@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: skyblue;
+}
+#menu {
+	width: 100%;
+	height: 80px;
+	background: #333;
+	box-shadow: 0px 2px 4px gray;
+}
+#bar {
+	width: 1000px;
+	height: 80px;
+	float: right; 
+	/*border: 1px solid gray;*/
+}
+#bar>li{
+	width: 190px;
+	list-style: none;
+	float: left;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray; 
+}
+li>a{
+	display: block;
+	color: white;
+	line-height: 80px;
+	text-align: center; 
+	font-family: cursive;
+	font-size: 20px; 
+	text-decoration: none;
+}
+li>a:hover,
+li>a:focus {
+	background: skyblue; color:#333;
+}
+#logo>img {
+	qwidth: 200px;
+	height: 80px;
+	float: left;
+	padding-left: 40px;
+}
+@media screen and (max-width: 1260px) {
+	#bar {
+	width: 800px;
+}
+#bar>li{
+	width: 150px;
+}
+#logo>img {
+	width: 150px;
+	height: 80px;
+}
+}
+@media screen and (max-width: 1060px){
+	#menu {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 80px;
+}
+	#bar {
+	width: 100px;
+	height: 60px;
+	float: right; 
+
+
+}
+#bar>li{
+	width: 18%;
+}
+li>a{
+	line-height: 60px;
+	font-size: 16px;
+}
+#logo {
+	width: 200px;
+	height: 80px;
+	float: left;
+	padding-left: 40px;
+	position: absolute;
+	top: -80px;
+}
+}
+@media screen and (max-width: 480px){ 
+	#menu {
+	width: 100%;
+	height: 60px;
+}
+#bar {
+	width: 100;
+	height: 60px;
+	float: none; 
+}
+#bar>li{
+	width: 100px;
+	list-style: none;
+	float: none;
+	border-bottom: 1px solid skyblue; 
+}
+li>a{
+	display: block;
+	color: white;
+	line-height: 60px; 
+	font-size: 16px;
+	background:#333;
+}
+}
+#menu ul ul {
+	position: absolute;
+	margin-left: 270px;
+	top: 100px;
+	/*display: none;*/
+}
+#rom {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	/*width: 300px;*/
+	
+
+}
+
+ 
+
+
+
+
+
+
+
+
